@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainHeader {
+    display: flex;
+}
+
+.body {
+    display: flex;
+}
+
+.navBar {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 24px;
+    background: #E7EEFF;
+    padding: 12px 28px 0px 28px;
+}
+
+.photo {
+    border-bottom: 1px solid #002B81;
+}
+
+nav {
+    display: flex;
+}
+.navPhoto {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.mainContainer {
+    display: flex;
+    gap: 42px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.color {
+    background: #E7EEFF;
+    width: 100%;
+}
+
+.nav {
+    max-width: 1336px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#placeholder {
+    border: none;
+    background: #E7EEFF;
+    width: 290px;
+}
+
+#placeholder::placeholder {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.rectangle {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    color: #5E6577;
+}
+
+.wrapper {
+    display: flex;
+    /* justify-content: center;  */
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+}
+
+.location {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.spain {
+    display: flex;
+    padding: 8px 24px 8px 12px;
+    gap: 12px;
+    align-items: center;
+    border-radius: 16px;
+    background: #E7EEFF;
+}
+
+.content_container {
+    max-width: 1144px;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    gap: 42px;
+    flex-wrap: wrap;
+}
+
+.paraghrap {
+    display: flex;
+    padding: 8px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 0px 0px 24px 24px;
+    background: #E7EEFF;
+}
+
+.house {
+    display: flex;
+    flex-direction: column;
+}
+
+.lasanta {
+    color: #606060;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.modern {
+    color: #000;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+}
