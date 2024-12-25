@@ -44,6 +44,8 @@ nav {
 .color {
     background: #E7EEFF;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .nav {
@@ -140,6 +142,7 @@ nav {
 }
 .modern {
     color: #000;
+
     font-style: normal;
     font-size: 18px;
     font-weight: 400;
